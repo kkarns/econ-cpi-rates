@@ -166,4 +166,4 @@ with cursor.execute(tsql):
       infoLogger.info(msg)
       row = cursor.fetchone()
 
-sys.exit(1) ## this is the end.  Who knew?
+#sys.exit(1) ## this is the end.  Who knew?
